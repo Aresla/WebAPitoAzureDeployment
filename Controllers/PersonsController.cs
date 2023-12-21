@@ -28,10 +28,6 @@ namespace Azure02.Controller
         public async Task<IActionResult> GetPersonById(int id)
         {
             var person = await _context.Persons.FindAsync(id);
-            // if (person == null)
-            // {
-            //     return NotFound("This person does not exist");
-            // }
             return Ok(person);
 
         }
