@@ -33,3 +33,7 @@ app.MapControllers();
 app.Run();
 
 // dotnet ef dbcontext scaffold 'Server=tcp:server-azure02.database.windows.net,1433;Initial Catalog=myazure02;Persist Security Info=False;User ID=tatiana;Password=543210aZ!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;' Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+
+// Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure02", "Azure02.csproj", "{984F66D1-D279-4122-A329-A156DFFAF4F1}"
+// EndProject
