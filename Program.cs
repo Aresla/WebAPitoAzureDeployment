@@ -30,6 +30,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+
+
 app.Run();
 
 // dotnet ef dbcontext scaffold 'Server=tcp:server-azure02.database.windows.net,1433;Initial Catalog=myazure02;Persist Security Info=False;User ID=tatiana;Password=543210aZ!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;' Microsoft.EntityFrameworkCore.SqlServer -o Models
